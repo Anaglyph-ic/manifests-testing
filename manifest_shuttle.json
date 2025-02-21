@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/4/context.json",
+  "id": "https://example.org/iiif/3d/model_origin.json",
+  "type": "Manifest",
+  "label": { "en": ["Discovery"] },
+  "summary": {
+    "en": [
+      "Discovery was the third Space Shuttle orbiter vehicle to fly in space. It entered service in 1984 and retired from spaceflight as the oldest and most utilized orbiter. Discovery was flown on 39 Earth-orbital missions, spent a total of 365 days in space, and traveled almost 240 million kilometers (150 million miles)--more than the other orbiters. It shuttled 184 men and women into space and back, many of whom flew more than once, for a record-setting total crew count of 251. Because Discovery flew every kind of mission the Space Shuttle was meant to fly, it embodies well the 30-year history of U.S. human spaceflight from 1981 to 2011. Named for renowned sailing ships of exploration, Discovery is preserved as intact as possible as it last flew in 2011 on the 133rd Space Shuttle mission. NASA transferred Discovery to the Smithsonian in April 2012 after a delivery flight over the nation's capital."
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": ["Language"]
+      },
+      "value": {
+        "en": ["English"]
+      }
+    },
+    {
+      "label": {
+        "en": ["Repository"]
+      },
+      "value": {
+        "en": ["Smithsonian"]
+      }
+    },
+    {
+      "label": {
+        "en": ["Title"]
+      },
+      "value": {
+        "en": ["Orbiter, Space Shuttle, OV-103, Discovery"]
+      }
+    },
+    {
+      "label": {
+        "en": ["Date"]
+      },
+      "value": {
+        "en": ["1984"]
+      }
+    },
+    {
+      "label": {
+        "en": ["Creator"]
+      },
+      "value": {
+        "en": ["NASA"]
+      }
+    },
+    {
+      "label": {
+        "en": ["Type"]
+      },
+      "value": {
+        "en": ["Model"]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://example.org/iiif/scene1/page/p1/1",
+      "type": "Scene",
+      "label": { "en": ["Discovery"] },
+      "items": [
+        {
+          "id": "https://example.org/iiif/scene1/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/3d/anno1",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://3d-api.si.edu/content/document/3d_package:d8c636ce-4ebc-11ea-b77f-2e728ce88125/resources/Orbiter_Space_Shuttle_OV-103_Discovery-150k-4096.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              },
+              "target": "https://example.org/iiif/scene1/page/p1/1",
+              "thumbnail": "https://github.com/Anaglyph-ic/manifests-testing/blob/main/discovery-thumbnail.png?raw=true",
+              "resolution": {
+                "vertices": 129590,
+                "triangles": 151024
+              }
+            },
+            {
+              "id": "https://example.org/iiif/3d/anno1",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://github.com/Anaglyph-ic/manifests-testing/raw/refs/heads/main/orbiter-decimated.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              },
+              "target": "https://example.org/iiif/scene1/page/p1/1",
+              "thumbnail": "https://github.com/Anaglyph-ic/manifests-testing/blob/main/discovery-decimated-thumbnail.png?raw=true",
+              "resolution": {
+                "vertices": 7328,
+                "triangles": 4500
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
