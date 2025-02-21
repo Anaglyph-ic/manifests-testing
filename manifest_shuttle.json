@@ -83,7 +83,20 @@
                 "vertices": 129590,
                 "triangles": 151024
               }
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iiif/scene1/page/p1/1",
+      "type": "Scene",
+      "label": { "en": ["Discovery"] },
+      "items": [
+        {
+          "id": "https://example.org/iiif/scene1/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
             {
               "id": "https://example.org/iiif/3d/anno1",
               "type": "Annotation",
