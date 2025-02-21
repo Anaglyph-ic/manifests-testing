@@ -117,7 +117,7 @@
               "label": { "en": ["Discovery"] },
               "motivation": ["painting"],
               "body": {
-                "id": "https://github.com/Anaglyph-ic/manifests-testing/raw/refs/heads/main/orbiter-decimated.glb",
+                "id": "https://anaglyph-ic.github.io/manifests-testing/orbiter-decimated.glb",
                 "type": "Model",
                 "format": "model/gltf-binary"
               },
