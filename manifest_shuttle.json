@@ -78,7 +78,13 @@
                 "format": "model/gltf-binary"
               },
               "target": "https://example.org/iiif/scene1/page/p1/1",
-              "thumbnail": "https://github.com/Anaglyph-ic/manifests-testing/blob/main/discovery-thumbnail.png?raw=true",
+              "thumbnail": [
+                {
+                  "id": "https://github.com/Anaglyph-ic/manifests-testing/blob/main/discovery-thumbnail.png?raw=true",
+                  "type": "Image",
+                  "format": "image/png"
+                }
+              ],
               "resolution": {
                 "vertices": 129590,
                 "triangles": 151024
@@ -107,7 +113,14 @@
                 "format": "model/gltf-binary"
               },
               "target": "https://example.org/iiif/scene1/page/p1/1",
-              "thumbnail": "https://github.com/Anaglyph-ic/manifests-testing/blob/main/discovery-decimated-thumbnail.png?raw=true",
+              "thumbnail": [
+                {
+                  "id": "https://github.com/Anaglyph-ic/manifests-testing/blob/main/discovery-decimated-thumbnail.png?raw=true",
+                  "type": "Image",
+                  "format": "image/png"
+                }
+              ],
+
               "resolution": {
                 "vertices": 7328,
                 "triangles": 4500
