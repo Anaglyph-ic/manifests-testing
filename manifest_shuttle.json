@@ -62,50 +62,75 @@
     {
       "id": "https://example.org/iiif/scene1/page/p1/1",
       "type": "Scene",
-      "label": { "en": ["Discovery"] },
-
-      "body": {
-        "id": "https://3d-api.si.edu/content/document/3d_package:d8c636ce-4ebc-11ea-b77f-2e728ce88125/resources/Orbiter_Space_Shuttle_OV-103_Discovery-150k-4096.glb",
-        "type": "Model",
-        "format": "model/gltf-binary"
-      },
-      "target": "https://example.org/iiif/scene1/page/p1/1",
-      "thumbnail": [
+      "label": { "en": ["A Scene"] },
+      "items": [
         {
-          "id": "https://github.com/Anaglyph-ic/manifests-testing/blob/main/discovery-thumbnail.png?raw=true",
-          "type": "Image",
-          "format": "image/png"
+          "id": "https://example.org/iiif/scene1/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/scene1/page/p1/1",
+              "type": "Scene",
+              "label": { "en": ["Discovery"] },
+
+              "body": {
+                "id": "https://3d-api.si.edu/content/document/3d_package:d8c636ce-4ebc-11ea-b77f-2e728ce88125/resources/Orbiter_Space_Shuttle_OV-103_Discovery-150k-4096.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              },
+              "target": "https://example.org/iiif/scene1/page/p1/1",
+              "thumbnail": [
+                {
+                  "id": "https://github.com/Anaglyph-ic/manifests-testing/blob/main/discovery-thumbnail.png?raw=true",
+                  "type": "Image",
+                  "format": "image/png"
+                }
+              ],
+              "resolution": {
+                "vertices": 129590,
+                "triangles": 151024
+              }
+            }
+          ]
         }
-      ],
-      "resolution": {
-        "vertices": 129590,
-        "triangles": 151024
-      }
+      ]
     },
     {
       "id": "https://example.org/iiif/scene1/page/p1/1",
       "type": "Scene",
-      "label": { "en": ["Discovery"] },
-
-      "motivation": ["painting"],
-      "body": {
-        "id": "https://github.com/Anaglyph-ic/manifests-testing/raw/refs/heads/main/orbiter-decimated.glb",
-        "type": "Model",
-        "format": "model/gltf-binary"
-      },
-      "target": "https://example.org/iiif/scene1/page/p1/1",
-      "thumbnail": [
+      "label": { "en": ["A Scene"] },
+      "items": [
         {
-          "id": "https://github.com/Anaglyph-ic/manifests-testing/blob/main/discovery-decimated-thumbnail.png?raw=true",
-          "type": "Image",
-          "format": "image/png"
-        }
-      ],
+          "id": "https://example.org/iiif/scene1/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/scene1/page/p1/1",
+              "type": "Scene",
+              "label": { "en": ["Discovery"] },
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://github.com/Anaglyph-ic/manifests-testing/raw/refs/heads/main/orbiter-decimated.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              },
+              "target": "https://example.org/iiif/scene1/page/p1/1",
+              "thumbnail": [
+                {
+                  "id": "https://github.com/Anaglyph-ic/manifests-testing/blob/main/discovery-decimated-thumbnail.png?raw=true",
+                  "type": "Image",
+                  "format": "image/png"
+                }
+              ],
 
-      "resolution": {
-        "vertices": 7328,
-        "triangles": 4500
-      }
+              "resolution": {
+                "vertices": 7328,
+                "triangles": 4500
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
